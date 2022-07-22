@@ -2,6 +2,7 @@ package com.renan.conversordemedidas
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Spinner
 import com.renan.conversordemedidas.model.CalculationStrategyHolder
 import com.renan.conversordemedidas.model.strategies.*
 
@@ -21,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val spinnerData = mutableListOf<String>()
+
+        val spConversions: Spinner = findViewById(R.id.spConversions)
 
     }
 }
