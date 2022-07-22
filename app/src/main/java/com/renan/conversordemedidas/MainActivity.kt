@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val spinnerData = mutableListOf<String>()
 
-        val spConversions: Spinner = findViewById(R.id.spConversions)
+
 
     }
 }
